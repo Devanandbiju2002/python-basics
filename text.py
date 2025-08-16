@@ -1,0 +1,32 @@
+a = "Python is a programming language"
+print(a)
+print(type(a))
+print(len(a))
+print(a[15])
+print(a[12:20])
+print(a[12:])
+print(a[:20])
+print(a[-1])
+print(a[-10:-1])
+print(a[-10:])
+print(a[:-1])
+for i in a:
+    print(i)
+print("is" in a)
+print("can" in a)
+print("is" not in a)
+print("can" not in a)
+
+print(a.upper())
+print(a.lower())
+
+x="   hello "
+print(x)
+print(x.strip())
+print(a.replace("Python","java"))
+print(a.split(" "))
+print(a.split("a"))
+print(a.count("a"))
+print(a+x)
+print("all \n is well")
+print("all is \twell")

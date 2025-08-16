@@ -1,0 +1,21 @@
+a = 5
+print(a)
+print(type(a))
+b = 2.5
+print(b)
+print(type(b))
+c = 2+5j
+print(c)
+print(type(c))
+x = float(a)
+print(x)
+print(type(x))
+y =int(b)
+print(y)
+print(type(y))
+z =complex(a)
+print(z)
+print(type(z))
+w =complex(b)
+print(w)
+print(type(w))

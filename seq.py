@@ -1,0 +1,48 @@
+a=["apple","orange","grape","mango","pineapple"]
+print(a)
+print(type(a))
+print(len(a))
+print(a[2])
+print(a[1:4])
+print(a[0:])
+print(a[:6])
+print(a[-1])
+print(a[-6:-1])
+print(a[-6:])
+print(a[:-1])
+print("apple" in a)
+print("strawberry" not in a)
+
+for i in a:
+    print(i)
+a[1]="kiwi"
+print(a)    
+a.append("strawberry")
+print(a)
+a.insert(2,"blueberry")
+print(a)
+b=["carrot","onion","capcicum"]
+a.extend(b)
+print(a)
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)
+c=b.copy()
+print(c)
+d=list(b)
+print(d)
+e=c+d
+print(e)
+print(e.count("carrot"))
+a.remove("apple")
+print(a)
+a.pop(1)
+print(a)
+a.pop()
+print(a)
+del a[3]
+print(a)
+a.clear()
+print(a)
+del a
